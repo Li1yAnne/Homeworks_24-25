@@ -1,0 +1,63 @@
+3. Mighty Beet
+Збільшила пам’ять йому, то запрацювало
+1@DESKTOP-I8HS85D MINGW64 /e/Lily Anne/GitHub/Homeworks_24-25 (main)
+$ cd "E:/Lily Anne/GitHub/Homeworks_24-25"
+
+1@DESKTOP-I8HS85D MINGW64 /e/Lily Anne/GitHub/Homeworks_24-25 (main)
+$ rm -f results/BeetSprout_results.jtl
+rm: cannot remove 'results/BeetSprout_results.jtl': Device or resource busy
+
+1@DESKTOP-I8HS85D MINGW64 /e/Lily Anne/GitHub/Homeworks_24-25 (main)
+$ rm -f results/BeetSprout_results.jtl
+rm: cannot remove 'results/BeetSprout_results.jtl': Device or resource busy
+
+1@DESKTOP-I8HS85D MINGW64 /e/Lily Anne/GitHub/Homeworks_24-25 (main)
+$ rm -f results/BeetSprout_results.jtl
+rm: cannot remove 'results/BeetSprout_results.jtl': Device or resource busy
+
+1@DESKTOP-I8HS85D MINGW64 /e/Lily Anne/GitHub/Homeworks_24-25 (main)
+$ rm -f results/BeetSprout_results.jtl
+
+1@DESKTOP-I8HS85D MINGW64 /e/Lily Anne/GitHub/Homeworks_24-25 (main)
+$ rm -rf results/html_report
+
+1@DESKTOP-I8HS85D MINGW64 /e/Lily Anne/GitHub/Homeworks_24-25 (main)
+$ mkdir -p results/html_report
+
+1@DESKTOP-I8HS85D MINGW64 /e/Lily Anne/GitHub/Homeworks_24-25 (main)
+$ "/e/Lily Anne/Курсы/BEETROOT/QA/apache-jmeter-5.6.3/apache-jmeter-5.6.3/bin/jmeter.bat" \
+> -n \
+> -t "Beet_Sprout_TestPlan.jmx" \
+> -l "results/BeetSprout_results.jtl" \
+> -e \
+> -o "results/html_report"
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using Beet_Sprout_TestPlan.jmx
+Starting standalone test @ July 24, 2025 7:09:41 PM EEST (1753373381018)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +    674 in 00:00:19 =   36.0/s Avg:   347 Min:    25 Max:  7201 Err:    20 (2.97%) Active: 30 Started: 30 Finished: 0
+summary +   3454 in 00:00:34 =  103.1/s Avg:   383 Min:    22 Max:  7112 Err:   147 (4.26%) Active: 77 Started: 77 Finished: 0
+summary =   4128 in 00:00:52 =   79.1/s Avg:   377 Min:    22 Max:  7201 Err:   167 (4.05%)
+summary +   3348 in 00:00:28 =  119.7/s Avg:   754 Min:    22 Max:  6551 Err:   362 (10.81%) Active: 125 Started: 125 Finished: 0
+summary =   7476 in 00:01:20 =   93.3/s Avg:   546 Min:    22 Max:  7201 Err:   529 (7.08%)
+summary +   3402 in 00:00:33 =  102.2/s Avg:  1419 Min:    23 Max: 80408 Err:   704 (20.69%) Active: 180 Started: 180 Finished: 0
+summary =  10878 in 00:01:54 =   95.8/s Avg:   819 Min:    22 Max: 80408 Err:  1233 (11.33%)
+summary +   2405 in 00:00:31 =   78.2/s Avg:  2544 Min:     0 Max: 81208 Err:  1000 (41.58%) Active: 231 Started: 231 Finished: 0
+summary =  13283 in 00:02:24 =   92.1/s Avg:  1131 Min:     0 Max: 81208 Err:  2233 (16.81%)
+summary +   1949 in 00:00:30 =   64.9/s Avg:  3887 Min:    23 Max: 76665 Err:  1209 (62.03%) Active: 281 Started: 281 Finished: 0
+summary =  15232 in 00:02:54 =   87.4/s Avg:  1484 Min:     0 Max: 81208 Err:  3442 (22.60%)
+summary +   1443 in 00:00:24 =   59.1/s Avg:  5685 Min:    25 Max: 18485 Err:  1156 (80.11%) Active: 322 Started: 322 Finished: 0
+summary =  16675 in 00:03:19 =   83.9/s Avg:  1847 Min:     0 Max: 81208 Err:  4598 (27.57%)
+summary +   1026 in 00:00:35 =   29.5/s Avg:  6281 Min:    22 Max: 77944 Err:   676 (65.89%) Active: 377 Started: 377 Finished: 0
+summary =  17701 in 00:03:54 =   75.8/s Avg:  2104 Min:     0 Max: 81208 Err:  5274 (29.79%)
+summary +   1288 in 00:00:30 =   43.5/s Avg:  9013 Min:    25 Max: 77094 Err:   957 (74.30%) Active: 421 Started: 421 Finished: 0^CЗавершить выполнение пакетного файла [Y(да)/N(нет)]? Y
+
+1@DESKTOP-I8HS85D MINGW64 /e/Lily Anne/GitHub/Homeworks_24-25 (main)
+$
+  summary +    859 in 00:00:29 =   29.8/s Avg: 12256 Min:    30 Max: 33815 Err:   850 (98.95%) Active: 476 Started: 476 Finished: 0
+summary =  18989 in 00:04:23 =   72.2/s Avg:  2573 Min:     0 Max: 81208 Err:  6231 (32.81%)
+summary =  19848 in 00:04:52 =   68.0/s Avg:  2992 Min:     0 Max: 81208 Err:  7081 (35.68%)
